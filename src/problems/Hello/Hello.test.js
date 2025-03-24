@@ -1,4 +1,4 @@
-import Hello from "../problems/Hello";
+import Hello from "./Hello";
 
 test("hello test", () => {
   expect(Hello.sayHello()).toEqual("hello");

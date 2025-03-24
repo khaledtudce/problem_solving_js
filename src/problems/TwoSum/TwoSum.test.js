@@ -1,4 +1,4 @@
-import TwoSum from "../problems/TwoSum";
+import TwoSum from "./TwoSum";
 
 test("twoSum test", () => {
   expect(TwoSum.twoSum([2, 7, 11, 15], 9)).toEqual([0, 1]);
